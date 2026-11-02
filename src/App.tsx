@@ -384,7 +384,29 @@ export default function App() {
               )}
             </div>
           </div>
-          <div className="mt-8 pt-6 border-t border-white/10 text-center text-sm text-white/50">
+
+          {/* Социальные сети */}
+          <div className="mt-8 pt-6 border-t border-white/10">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p className="text-sm text-white/50">Мы в социальных сетях:</p>
+              <div className="flex items-center gap-3">
+                <a href="https://instagram.com/myata_eucalypt" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/25 transition-all hover:scale-110 group">
+                  <i className="fa-brands fa-instagram text-lg text-white/80 group-hover:text-white"></i>
+                </a>
+                <a href="https://t.me/myata_eucalypt" target="_blank" rel="noopener noreferrer" aria-label="Telegram" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/25 transition-all hover:scale-110 group">
+                  <i className="fa-brands fa-telegram text-lg text-white/80 group-hover:text-white"></i>
+                </a>
+                <a href="https://wa.me/78431234567" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/25 transition-all hover:scale-110 group">
+                  <i className="fa-brands fa-whatsapp text-lg text-white/80 group-hover:text-white"></i>
+                </a>
+                <a href="https://vk.com/myata_eucalypt" target="_blank" rel="noopener noreferrer" aria-label="ВКонтакте" className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/25 transition-all hover:scale-110 group">
+                  <i className="fa-brands fa-vk text-lg text-white/80 group-hover:text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 pt-6 border-t border-white/10 text-center text-sm text-white/50">
             © {new Date().getFullYear()} Мята & Эвкалипт. Все права защищены.
           </div>
         </div>
